@@ -113,6 +113,9 @@ declare class Sound {
    */
   setVolume(value: number): void
 
+
+  getSystemVolume(callback?: CallbackType): void
+
   /**
    * Return the stereo pan position of the audio player (not the system-wide pan)
    * Ranges from -1.0 (full left) through 1.0 (full right). The default value is 0.0 (center)
